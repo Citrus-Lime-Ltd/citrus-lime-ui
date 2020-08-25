@@ -2,7 +2,8 @@
 
 A Vue 3 UI library built with TypeScript used in Citrus-Lime products.
 
-https://www.npmjs.com/package/citrus-lime-ui
+- ⚡ [NPM Package](https://www.npmjs.com/package/citrus-lime-ui)
+- 📌 [Citrus-Lime Ltd](https://www.citruslime.com)
 
 ![MIT License](https://img.shields.io/github/license/citrus-lime-ltd/citrus-lime-ui)
 
