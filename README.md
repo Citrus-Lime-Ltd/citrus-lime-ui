@@ -9,6 +9,12 @@ A Vue 3 UI library built with TypeScript used in Citrus-Lime products.
 
 ## Status
 
+![GitHub contributors](https://img.shields.io/github/contributors/citrus-lime-ltd/citrus-lime-ui)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/citrus-lime-ltd/citrus-lime-ui)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/citrus-lime-ltd/citrus-lime-ui)
+
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Citrus-Lime-Ltd/citrus-lime-ui/build/master)
 
 ## Install
