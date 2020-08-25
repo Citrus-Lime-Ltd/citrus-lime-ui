@@ -1,3 +1,5 @@
+/* String Extensions */
+
 function Levenshtein (a: string, b: string): number {
     const aLen = a.length;
     const bLen = b.length;
