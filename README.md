@@ -4,7 +4,7 @@ A Vue 3 UI library built with TypeScript used in Citrus-Lime products.
 
 https://www.npmjs.com/package/citrus-lime-ui
 
-[![TypeScript Status](https://github.com/Citrus-Lime-Ltd/citrus-lime-ui/.github/workflows/Into Master/badge.svg)](https://github.com/Citrus-Lime-Ltd/citrus-lime-ui/actions)
+[![TypeScript Status](https://github.com/Citrus-Lime-Ltd/citrus-lime-ui/.github/workflows/Into%20Master/badge.svg)](https://github.com/Citrus-Lime-Ltd/citrus-lime-ui/actions)
 
 ## Install
 
