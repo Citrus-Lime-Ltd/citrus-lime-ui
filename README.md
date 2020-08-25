@@ -1,24 +1,18 @@
-# citrus-lime-ui
+# Citrus-Lime UI
 
-## Project setup
-```
-npm install
-```
+A Vue 3 UI library built with TypeScript used in Citrus-Lime products.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+https://www.npmjs.com/package/citrus-lime-ui
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[![TypeScript Status](https://github.com/Citrus-Lime-Ltd/citrus-lime-ui/workflows/.github/workflows/test-ts-compile.yml/badge.svg)](https://github.com/Citrus-Lime-Ltd/citrus-lime-ui/actions)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Install
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`npm install citrus-lime-ui`
+
+## Components
+
+- **Super Grid**
+  A server-side data handling grid component.
+- **UI Core**
+  Utilities, styling and common extension methods.

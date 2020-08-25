@@ -1,0 +1,39 @@
+.grid-wrapper[data-loading] {
+    position: relative;
+    overflow-x: auto;
+}
+
+    .grid-wrapper[data-loading="true"]:before, .grid-wrapper[data-loading="true"]:after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: ' ';
+    }
+
+
+    .grid-wrapper[data-loading="true"]:before {
+        background: rgba(255,255,255,0.5);
+    }
+
+    .grid-wrapper[data-loading="true"]:after {
+        animation: uk-spinner-rotate 1.4s linear infinite;
+        top: 80px;
+        left: calc(50% - 15px);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border-left: 3px solid YellowGreen;
+        border-top: 3px solid YellowGreen;
+        border-right: 3px solid YellowGreen;
+        border-bottom: 3px solid transparent;
+    }
+
+.grid-filter-icon {
+    height:40px;
+    line-height:40px;
+    width:40px;
+    text-align:center;
+    background: #f4f4f4;
+}

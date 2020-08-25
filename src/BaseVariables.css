@@ -1,0 +1,84 @@
+:root {
+    /* Primary button, text and notification colours */
+    --primary: yellowgreen;
+    --primary-hover: #a5d740;
+    --danger: #f0506e;
+    --danger-background: #ffecf0;
+    --danger-hover: #ce3552;
+    --warning-background: #ffeda9;
+    --warning-text: #87701c;
+    --primary-navigation: #30363e;
+    --primary-navigation-hover: #48515d;
+    --secondary-navigation: dodgerblue;
+    --secondary-navigation-hover: #51a9ff;
+    --user-action: dodgerblue;
+    --user-action-hover: #51a9ff;
+    /* Emphasis */
+    --emphasis-default-background: aliceblue;
+    --emphasis-default-text: cornflowerblue;
+    --emphasis-light-blue-background: #eafefc;
+    --emphasis-light-blue-text: #2e3b39;
+    --emphasis-green-background: #e7f6e5;
+    --emphasis-green-text: #8bc057;
+    --emphasis-red-background: #ffefef;
+    --emphasis-red-text: tomato;
+    /* Input flag colours */
+    --recommended-background: aliceblue;
+    --recommended-text: #0e3a6d;
+    --desirable-background: honeydew;
+    --desirable-text: #0e6d11;
+    --required-background: #ffefef;
+    --required-text: #6d0e0e;
+    /* Help bar */
+    --help-bar-background-blue: lightcyan;
+    --help-bar-border-blue: #d4efef;
+    --help-bar-text-blue: #699191;
+    --help-bar-background-green: #f1f6ea;
+    --help-bar-border-green: #dbf0d3;
+    --help-bar-text-green: #7d9169;
+    /* Header */
+    --header-background: #637bc6;
+    --header-background-hover: #76a3f6;
+    /* Page loading */
+    --page-loading-background: rgba(1,22,39,0.8);
+    --page-loading-purple: #52489C;
+    --page-loading-blue: #4062BB;
+    --page-loading-orange: #F45B69;
+    --page-loading-cyan: #59C3C3;
+    /* SIM colours */
+    --sim: #4e5b6c;
+    --sim-light: rgba(78, 91, 108, 0.1);
+    /* Star Buy colours */
+    --star-buy-pill-background: #9064ed;
+    --star-buy-pill-text: #f2f0ff;
+    /* Light and dark text/background colours paired together */
+    --star-buy-background: #9d53e1;
+    --star-buy-light-text: #fbf6ff;
+    --star-buy-light-background: #d7bbf1;
+    --star-buy-text: #764f9a;
+    /* Wizard */
+    --wizard-blue: #1967b2;
+    --wizard-light-blue: dodgerblue;
+    /* JSON formatting */
+    --json-key: #ff4700;
+    --json-bool: #b400ff;
+    --json-int: #1563ff;
+    --json-string: #ff8f2f;
+    --json-null: #ababab;
+    /* Greyscale */
+    --default-background: white;
+    --invert-text: white;
+    --invert-background: #30363e;
+    --off-white: whitesmoke;
+    --grey-0: #eee;
+    --grey-1: #e5e5e5;
+    --grey-2: #d7d7d7;
+    --grey-3: #999;
+    --grey-4: #5a5a5a;
+    --grey-5: #444;
+    --grey-6: #333;
+    --grey-7: #30363e;
+    /* Other */
+    --info: lightcyan;
+    --inactive: crimson;
+}
