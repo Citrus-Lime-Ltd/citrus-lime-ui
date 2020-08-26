@@ -35,7 +35,7 @@
         "data grid"
     ],
     "scripts": {
-        "build": "vue-cli-service build --target lib --formats umd-min --name citrus-lime-ui src/main.ts && copyfiles -u 1 src/types/**/*.d.ts dist/types",
+        "build": "vue-cli-service build --target lib --formats umd-min --name citrus-lime-ui src/main.ts && copyfiles -u 1 src/types/**/*.d.ts dist",
         "lint": "vue-cli-service lint",
         "test": "jest"
     },
