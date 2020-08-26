@@ -23,11 +23,15 @@ module.exports = {
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-extra-semi': 'off',
+        quotes: 'off',
         semi: 'off',
         'space-before-function-paren': 'error',
         '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/indent': ['error', 4],
         '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/quotes': ['error', 'single', {
+            allowTemplateLiterals: true
+        }],
         '@typescript-eslint/semi': 'error',
         'vue/component-name-in-template-casing': ['error', 'kebab-case', {
             registeredComponentsOnly: true

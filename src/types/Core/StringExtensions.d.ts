@@ -10,4 +10,6 @@ declare global {
     }
 }
 
-export {}
+export { };
+
+declare function Levenshtein(a: string, b: string): number;
