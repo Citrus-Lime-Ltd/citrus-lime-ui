@@ -3,7 +3,6 @@ import { StatusCodes } from './StatusCodes';
 import { Translations } from './Translations';
 
 export { numberFormats } from './NumberFormats';
-export * as stringExtensions from './StringExtensions';
 export { translations } from './Translations';
 
 export declare interface I18n {

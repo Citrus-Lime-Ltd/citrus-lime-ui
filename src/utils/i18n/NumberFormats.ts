@@ -1,4 +1,4 @@
-import { NumberFormats } from '@/types/Core/NumberFormats';
+import { NumberFormats } from '@/types/core/NumberFormats';
 
 const numberFormats: NumberFormats = {
     'en-US': {
