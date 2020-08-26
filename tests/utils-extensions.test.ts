@@ -1,5 +1,5 @@
+import '@/utils/extensions/String';
 import 'jest';
-import '../src/utils/extensions/String';
 
 describe('Test String Extensions', () => {
 

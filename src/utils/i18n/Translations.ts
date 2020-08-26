@@ -1,4 +1,4 @@
-import { Translations } from '@/types/Core/Translations';
+import { Translations } from '@/types/core/Translations';
 
 const translations: Translations = {
     'en-GB': {

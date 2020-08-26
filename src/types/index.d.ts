@@ -1,6 +1,7 @@
 import SuperGridComponent from '@/Components/SuperGrid/SuperGrid.vue';
 
-export { core, Core, stringExtensions } from './Core';
+export { core, Core } from './core';
+export * from './core/StringExtensions';
 export { FilterMethod, filterMethods } from './FilterMethod';
 export { FilterOperation } from './FilterOperation';
 export { FilterArgs, FilterRequest, SortArgs } from './FilterRequest';

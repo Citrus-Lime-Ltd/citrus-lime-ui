@@ -1,4 +1,4 @@
-import { StatusCodes, StatusMessage } from '@/types/Core/StatusCodes';
+import { StatusCodes, StatusMessage } from '@/types/core/StatusCodes';
 
 const statusCodes: StatusCodes = {
     GetMessage (statusCode: number): StatusMessage {
