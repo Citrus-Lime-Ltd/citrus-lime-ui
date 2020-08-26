@@ -1,6 +1,4 @@
-import '@/App.css';
 import { Core } from '@/types/Core';
-import '@/utils/extensions/String';
 import numberFormats from '@/utils/i18n/NumberFormats';
 import translations from '@/utils/i18n/Translations';
 import statusCodes from '@/utils/StatusCodes';
