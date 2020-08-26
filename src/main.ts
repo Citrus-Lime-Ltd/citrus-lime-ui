@@ -5,6 +5,7 @@ UIkit.use(icons);
 
 export { default as superGrid } from '@/components/SuperGrid/SuperGrid.vue';
 export { core } from '@/utils/Core';
+export * from '@/utils/extensions/String';
 export { filterMethods } from '@/utils/FilterMethods';
 export { FilterOperation } from '@/utils/FilterOperation';
 

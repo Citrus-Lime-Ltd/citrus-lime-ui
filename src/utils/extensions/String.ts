@@ -115,3 +115,5 @@ String.prototype.ToTitleCase = function (this: string): string {
 
     return stringAsArray.join(' ');
 };
+
+export { };
