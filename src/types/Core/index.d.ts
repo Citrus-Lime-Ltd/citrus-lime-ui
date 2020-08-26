@@ -3,6 +3,7 @@ import { StatusCodes } from './StatusCodes';
 import { Translations } from './Translations';
 
 export { numberFormats } from './NumberFormats';
+export * as stringExtensions from './StringExtensions';
 export { translations } from './Translations';
 
 export declare interface I18n {
@@ -19,5 +20,4 @@ export declare interface Core {
     broadcastChannels: BroadcastChannels;
     statusCodes: StatusCodes;
 }
-
 export declare const core: Core;

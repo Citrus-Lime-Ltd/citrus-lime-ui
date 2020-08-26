@@ -1,4 +1,4 @@
-import { FilterMethod } from "@/types/FilterMethod";
+import { FilterMethod } from '@/types/FilterMethod';
 
 export const defaultFilterMethod: FilterMethod = {
     method: 'equal',

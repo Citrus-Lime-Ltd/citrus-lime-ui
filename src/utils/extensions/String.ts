@@ -1,5 +1,3 @@
-/* String Extensions */
-
 function Levenshtein (a: string, b: string): number {
     const aLen = a.length;
     const bLen = b.length;
@@ -47,6 +45,20 @@ function Levenshtein (a: string, b: string): number {
 
     return row[aLen];
 };
+
+declare global {
+    interface String {
+        Similarity(comparisonString: string): number;
+        TrimChar(character: string): string;
+        TrimStartChar(character: string): string;
+        TrimEndChar(character: string): string;
+        TrimToLength(length: number, addElipsis: boolean): string;
+        CamelCaseToSentence(): string;
+        ToTitleCase(): string;
+    }
+}
+
+export { };
 
 String.prototype.Similarity = function (this: string, comparisonString: string): number {
     let similarityToReturn = 0;
