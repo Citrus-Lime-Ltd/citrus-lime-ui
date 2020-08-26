@@ -13,10 +13,7 @@
     "types": "dist/types/index.d.ts",
     "files": [
         "dist/*",
-        "src/*",
-        "public/*",
-        "*.json",
-        "*.js"
+        "src/*"
     ],
     "keywords": [
         "citrus lime",
