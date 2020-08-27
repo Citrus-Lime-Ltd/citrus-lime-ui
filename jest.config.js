@@ -1,4 +1,5 @@
 module.exports = {
+    testEnvironment: 'jest-environment-node',
     preset: 'ts-jest',
     roots: [
         '<rootDir>'
@@ -15,6 +16,8 @@ module.exports = {
         'node'
     ],
     moduleNameMapper: {
+        '\\.css$': "identity-obj-proxy",
+        '\\.(jpg|png|gif|ttf|eot|svg|woff)$': '<rootDir>/__mocks__/fileMock.js',
         '^@/(.*)$': '<rootDir>/src/$1'
     },
     testMatch: [
