@@ -1,5 +1,5 @@
 module.exports = {
-    testEnvironment: 'jest-environment-node',
+    testEnvironment: 'jsdom',
     preset: 'ts-jest',
     roots: [
         '<rootDir>'
@@ -27,5 +27,11 @@ module.exports = {
     transform: {
         '^.+\\.(ts|tsx)$': 'ts-jest',
         '.*\\.(vue)$': 'vue-jest'
-    }
+    },
+    globals: {
+        window: {},
+        plugin: {
+            call: () => {}
+        }
+      }
 };
