@@ -12,8 +12,8 @@ interface MockData {
     Title: string;
     AnotherString: string;
 };
-const MockTheData = () : Array<MockData> => {
-    let arrToReturn : Array<MockData> = [];
+const MockTheData = (): Array<MockData> => {
+    const arrToReturn: Array<MockData> = [];
 
     [...Array(50).keys()].forEach(element => {
         arrToReturn.push({
@@ -64,14 +64,14 @@ describe('Component', () => {
 
         const mountOptions = {
             props: {
-              data: {
-                  results: MOCKDATA_ARR,
-                  totalRecords: 50
-              },
-              status: MOCKSTATUS,
-              columns: MOCKCOLUMNS
+                data: {
+                    results: MOCKDATA_ARR,
+                    totalRecords: 50
+                },
+                status: MOCKSTATUS,
+                columns: MOCKCOLUMNS
             }
-          };
+        };
 
         const wrapper = mount(superGrid, mountOptions);
 
@@ -82,14 +82,14 @@ describe('Component', () => {
 
         const mountOptions = {
             props: {
-              data: {
-                  results: MOCKDATA_ARR,
-                  totalRecords: 50
-              },
-              status: MOCKSTATUS,
-              columns: MOCKCOLUMNS
+                data: {
+                    results: MOCKDATA_ARR,
+                    totalRecords: 50
+                },
+                status: MOCKSTATUS,
+                columns: MOCKCOLUMNS
             }
-          };
+        };
 
         const wrapper = mount(superGrid, mountOptions);
 

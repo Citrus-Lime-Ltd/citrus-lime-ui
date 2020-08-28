@@ -1,9 +1,9 @@
 import { core } from '@/utils/Core';
 import 'jest';
 
-const TESTPARAMNAME: string = 'doesthiswork';
-const TESTPARAMVALUE: string = 'yes';
-const TESTURL: string = `https://www.citruslime.com/?${TESTPARAMNAME}=${TESTPARAMVALUE}`;
+const TESTPARAMNAME = 'doesthiswork';
+const TESTPARAMVALUE = 'yes';
+const TESTURL = `https://www.citruslime.com/?${TESTPARAMNAME}=${TESTPARAMVALUE}`;
 
 describe('Test URL Param Function', () => {
 
