@@ -8,7 +8,8 @@ export { FilterArgs, FilterRequest, SortArgs } from './FilterRequest';
 export { FilterResponse } from './FilterResponse';
 export { GridColumn } from './GridColumn';
 
-export declare const uikit: UIkit;
+declare type UIKit = UIkit;
+export declare const uikit: UIKit;
 
 declare type SuperGrid = typeof superGridComponent;
 export declare const superGrid: SuperGrid;
