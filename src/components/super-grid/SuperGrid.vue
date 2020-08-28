@@ -3,7 +3,7 @@
 
 <template>
     <div class="uk-width-1-1 uk-margin-small-bottom uk-text-right">
-        <button class="uk-button uk-button-default uk-button-small" @click="ResetSortAndFilters">
+        <button data-buttoncontext="clearfiltersgrid" class="uk-button uk-button-default uk-button-small" @click="ResetSortAndFilters">
             Clear Grid Options
         </button>
     </div>
