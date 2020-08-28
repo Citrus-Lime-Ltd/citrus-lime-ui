@@ -1,4 +1,4 @@
-import * as UIkit from 'uikit';
+import UIkit from 'uikit';
 import * as icons from 'uikit/dist/js/uikit-icons';
 
 UIkit.use(icons);
