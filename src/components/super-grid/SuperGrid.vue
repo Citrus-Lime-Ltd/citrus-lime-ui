@@ -1,5 +1,5 @@
-<script lang="ts" src="@/components/SuperGrid/SuperGrid.ts"></script>
-<style scoped src="@/components/SuperGrid/SuperGrid.css"></style>
+<script lang="ts" src="./SuperGridLogic.ts"></script>
+<style scoped src="./SuperGrid.css"></style>
 
 <template>
     <div class="uk-width-1-1 uk-margin-small-bottom uk-text-right">
