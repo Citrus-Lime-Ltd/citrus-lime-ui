@@ -1,7 +1,7 @@
-import { use } from 'uikit';
+import uikit from 'uikit';
 import * as icons from 'uikit/dist/js/uikit-icons';
 
-use(icons);
+uikit.use(icons);
 
 export { default as superGrid } from '@/components/super-grid/SuperGrid.vue';
 export { core } from '@/utils/Core';

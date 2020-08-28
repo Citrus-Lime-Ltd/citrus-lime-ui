@@ -29,18 +29,24 @@ declare interface Modal {
     };
 }
 
+declare interface UIkit {
+    util: object;
+    data: string;
+    prefix: string;
+    options: object;
+    version: string;
+
+    component(name: string, component?: object): void;
+    extend(options: object | null): void;
+    mixin(mixin: object, component: string): void;
+    update(element: object, e: UIkitElement): void;
+    use(plugin: object): void;
+
+    modal: Modal;
+}
+
 declare module 'uikit' {
-    export const util: object;
-    export const data: string;
-    export const prefix: string;
-    export const options: object;
-    export const version: string;
+    const uikit: UIkit;
 
-    export function component(name: string, component?: object): void;
-    export function extend(options: object | null): void;
-    export function mixin(mixin: object, component: string): void;
-    export function update(element: object, e: UIkitElement): void;
-    export function use(plugin: object): void;
-
-    export const modal: Modal;
+    export default uikit;
 }
