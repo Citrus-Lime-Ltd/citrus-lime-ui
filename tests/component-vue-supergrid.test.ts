@@ -78,4 +78,22 @@ describe('Component', () => {
         expect(wrapper.findComponent(superGrid)).toBeTruthy();
     });
 
+    test('SuperGrid clear filters button exists', () => {
+
+        const mountOptions = {
+            props: {
+              data: {
+                  results: MOCKDATA_ARR,
+                  totalRecords: 50
+              },
+              status: MOCKSTATUS,
+              columns: MOCKCOLUMNS
+            }
+          };
+
+        const wrapper = mount(superGrid, mountOptions);
+
+        expect(wrapper.get('button[data-buttoncontext="clearfiltersgrid"]').exists()).toBe(true);
+    });
+
 });
