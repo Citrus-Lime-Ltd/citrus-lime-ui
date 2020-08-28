@@ -1,4 +1,4 @@
-import SuperGridComponent from '@/Components/SuperGrid/SuperGrid.vue';
+import SuperGridComponent from '@/components/super-grid/SuperGrid.vue';
 
 export { core, Core } from './core';
 export * from './core/StringExtensions';
