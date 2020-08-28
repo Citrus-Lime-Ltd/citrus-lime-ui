@@ -43,7 +43,7 @@
         "@vue/compiler-sfc": "^3.0.0-rc.9",
         "@vue/eslint-config-standard": "^5.1.2",
         "@vue/eslint-config-typescript": "^5.1.0",
-        "@vue/test-utils": "^1.0.4",
+        "@vue/test-utils": "next",
         "copyfiles": "^2.3.0",
         "eslint": "^6.7.2",
         "eslint-plugin-import": "^2.20.2",
@@ -55,7 +55,6 @@
         "jest": "^26.4.2",
         "ts-jest": "^26.3.0",
         "typescript": "^3.9.7",
-        "vue-jest": "next",
-        "vue-template-compiler": "^2.6.12"
+        "vue-jest": "next"
     }
 }
