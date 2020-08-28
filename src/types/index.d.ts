@@ -1,4 +1,5 @@
 import SuperGridComponent from '@/components/super-grid/SuperGrid.vue';
+import UIkit from 'uikit';
 
 export { core, Core } from './core';
 export * from './core/StringExtensions';
@@ -8,7 +9,8 @@ export { FilterArgs, FilterRequest, SortArgs } from './FilterRequest';
 export { FilterResponse } from './FilterResponse';
 export { GridColumn } from './GridColumn';
 
-export declare const uikit: 'uikit';
+declare type UIKit = typeof UIkit;
+export declare const uikit: UIKit;
 
 declare type SuperGrid = typeof SuperGridComponent;
 export declare const superGrid: SuperGrid;
