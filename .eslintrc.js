@@ -20,6 +20,7 @@ module.exports = {
         'func-style': ['error', 'declaration', {
             allowArrowFunctions: true
         }],
+        'linebreak-style': ['error', 'unix'],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-extra-semi': 'off',
@@ -72,5 +73,26 @@ module.exports = {
         'vue/singleline-html-element-content-newline': ['error', {
             ignoreWhenNoAttributes: false
         }]
-    }
+    },
+    overrides: [
+        {
+            files: '**/*.js',
+            extends: [
+                'plugin:vue/vue3-recommended',
+                'eslint:recommended'
+            ],
+            rules: {
+                indent: ['error', 4],
+                quotes: ['error', 'single', {
+                    allowTemplateLiterals: true
+                }],
+                semi: 'error',
+                '@typescript-eslint/explicit-function-return-type': 'off',
+                '@typescript-eslint/indent': 'off',
+                '@typescript-eslint/no-empty-function': 'off',
+                '@typescript-eslint/quotes': 'off',
+                '@typescript-eslint/semi': 'off'
+            }
+        }
+    ]
 }

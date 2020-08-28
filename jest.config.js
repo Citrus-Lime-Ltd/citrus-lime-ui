@@ -16,7 +16,7 @@ module.exports = {
         'node'
     ],
     moduleNameMapper: {
-        '\\.css$': "identity-obj-proxy",
+        '\\.css$': 'identity-obj-proxy',
         '\\.(jpg|png|gif|ttf|eot|svg|woff)$': '<rootDir>/__mocks__/fileMock.js',
         '^@/(.*)$': '<rootDir>/src/$1'
     },
@@ -33,5 +33,5 @@ module.exports = {
         plugin: {
             call: () => {}
         }
-      }
+    }
 };
