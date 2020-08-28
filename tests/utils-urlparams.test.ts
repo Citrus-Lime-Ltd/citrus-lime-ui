@@ -1,9 +1,9 @@
-import { core } from '@/main';
+import { core } from '@/utils/Core';
 import 'jest';
 
 const TESTPARAMNAME: string = 'doesthiswork';
 const TESTPARAMVALUE: string = 'yes';
-const TESTURL: string = `http://www.citruslime.com/${TESTPARAMNAME}?=${TESTPARAMVALUE}`;
+const TESTURL: string = `https://www.citruslime.com/?${TESTPARAMNAME}=${TESTPARAMVALUE}`;
 
 describe('Test URL Param Function', () => {
 
@@ -12,11 +12,11 @@ describe('Test URL Param Function', () => {
     });
 
     test('Function returns the correct value', () => {
-        expect(core.UrlParams(TESTURL, TESTPARAMNAME)).toEqual(TESTPARAMVALUE);
+        expect(core.UrlParams(TESTURL, TESTPARAMNAME)).toBe(TESTPARAMVALUE);
     });
 
     test('Function returns empty string when param not in url', () => {
-        expect(core.UrlParams(TESTURL, 'notinurl')).toEqual('');
+        expect(core.UrlParams(TESTURL, 'notinurl')).toBe('');
     });
 
 });

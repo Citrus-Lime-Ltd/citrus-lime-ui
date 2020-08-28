@@ -1,3 +1,5 @@
+const { defaults: tsjPreset } = require('ts-jest/presets');
+
 module.exports = {
     testEnvironment: 'jsdom',
     preset: 'ts-jest',
@@ -26,7 +28,8 @@ module.exports = {
     ],
     transform: {
         '^.+\\.(ts|tsx)$': 'ts-jest',
-        '.*\\.(vue)$': 'vue-jest'
+        '.*\\.(vue)$': 'vue-jest',
+        ...tsjPreset.transform
     },
     globals: {
         window: {},

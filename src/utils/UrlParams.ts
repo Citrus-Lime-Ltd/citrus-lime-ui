@@ -1,12 +1,12 @@
 const GetParamsByName = (stringToSearch: string, paramToFind: string): string => {
-    let valueToReturn = '';
+    let valueToReturn: string = '';
 
-    const urlToSearch = decodeURIComponent(stringToSearch),
-        regexS = `[\\?&]'${paramToFind}=([^&#]*)`,
-        regex = new RegExp(regexS),
-        results = regex.exec(urlToSearch);
+    let urlToSearch: string = decodeURIComponent(stringToSearch),
+        regexS: string = '[\\?&]' + paramToFind + '=([^&#]*)',
+        regex: RegExp = new RegExp(regexS),
+        results: RegExpExecArray | null = regex.exec(urlToSearch);
 
-    if (results != null) {
+    if (results && results[1]) {
         valueToReturn = decodeURIComponent(results[1].replace(/\+/g, " "));
     }
 
