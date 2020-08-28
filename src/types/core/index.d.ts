@@ -18,5 +18,6 @@ export declare interface Core {
     i18n: I18n;
     broadcastChannels: BroadcastChannels;
     statusCodes: StatusCodes;
+    UrlParams(stringToSearch: string, paramToFind: string): string; 
 }
 export declare const core: Core;
