@@ -1,7 +1,3 @@
-import 'uikit/dist/css/uikit.min.css';
-
-import '@/BaseVariables.css';
-import '@/Base.css';
 import '@/App.css';
 
 import { Core } from '@/types/core';
